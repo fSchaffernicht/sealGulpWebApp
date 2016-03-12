@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+body {
+  color: #FFFFFF;
+  background: #222222;
+  font-family: "VT323", sans-serif;
+  font-size: 1.2rem; }
+
+main {
+  position: relative;
+  top: 10rem;
+  width: 500px;
+  height: auto;
+  margin: 0 auto; }
+
+.watching {
+  background: #cc74de;
+  display: inline-block;
+  margin-left: 1.5rem;
+  padding: 0 1rem; }
+  .watching:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid #cc74de;
+    border-left: 14px solid transparent;
+    left: 110px; }
+
+img {
+  width: 100px;
+  float: left; }
+
+h1 {
+  font-size: 2.5rem;
+  color: #222222; }
+
+a {
+  font-size: 2rem;
+  color: #a62dbf;
+  transition: 0.2s ease-in-out; }
+  a:hover {
+    color: #cc74de; }
